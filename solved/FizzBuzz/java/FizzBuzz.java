@@ -24,7 +24,7 @@ public class FizzBuzz{
             if ( i % 5 == 0 || hasNumber(i,5) )
                 s += "Buzz";
 
-            if ( s == "" )
+            if ( s.equals("") )
                 System.out.println(i);
             else
                 System.out.println(s);
@@ -44,7 +44,7 @@ public class FizzBuzz{
 
         if ( i != 1 ) fizzBuzzRec(i-1);
 
-        if ( s == "")
+        if ( s.equals("") )
             System.out.println(i);
         else
             System.out.println(s);
